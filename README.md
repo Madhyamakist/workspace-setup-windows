@@ -14,7 +14,6 @@ Set up your Node.js development environment on a new Windows machine using `nvm-
 - Visual Studio Code (recommended)
 
 ---
-- Run `python --version` to check active python version
 ## Setup Steps
 
 ### 1. Install nvm-windows
