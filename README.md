@@ -66,8 +66,6 @@ Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/pyenv
 - After installing, reopen PowerShell and run `pyenv --version` to check if installation was successful.
 - Run `pyenv install -l` to check a list of Python versions supported by pyenv-win
 - Run `pyenv install <version>` to install the required version as example: `pyenv install 3.12.10`
-- Run `pyenv global <version>` to set a Python version as the global version
-- Run `python --version` to check active python version
 - Run `pyenv local <version>` to set a Python version inside your project folder.
 - Run `python --version` to check active python version in project folder
 
@@ -75,14 +73,14 @@ Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/pyenv
 
 ### 1. Creating virtual environment
 
-- To create a virtual environment named "test", go to Windows PowerShell and enter
+- To create a virtual environment named "venv", go to Windows PowerShell and enter
 
 ```bash
-python -m venv test
+python -m venv venv
 ```
 -  To activate the environment
 ```bash
-test\Scripts\activate
+venv\Scripts\activate
 ```
 
 
